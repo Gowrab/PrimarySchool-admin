@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
     }
     private void login() {
 
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, "http://192.168.10.108:1000/api/admin/login",
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, "http://demo.olivineltd.com/primary_attendance/api/admin/login",
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
@@ -72,12 +72,12 @@ public class LoginActivity extends AppCompatActivity {
                         try {
                             JSONObject jsonObject = new JSONObject(response);
                             user_id = jsonObject.getString("users_id");
-                            username = jsonObject.getString("users_name_bn");
+                            username = jsonObject.getString("users_name_en");
                             user_email = jsonObject.getString("users_email");
                             user_mobile = jsonObject.getString("users_mobile");
                             user_phone = jsonObject.getString("users_phone");
                             user_type = jsonObject.getString("users_type");
-                            user_address = jsonObject.getString("users_address");
+                            //user_address = jsonObject.getString("users_address");
                             user_address_type = jsonObject.getString("users_address_type");
 
                             prefs = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
@@ -88,7 +88,7 @@ public class LoginActivity extends AppCompatActivity {
                             prefs.edit().putString("user_mobile",String.valueOf(user_mobile)).apply();
                             prefs.edit().putString("user_phone",String.valueOf(user_phone)).apply();
                             prefs.edit().putString("user_type",String.valueOf(user_type)).apply();
-                            prefs.edit().putString("user_address",String.valueOf(user_address)).apply();
+                            //prefs.edit().putString("user_address",String.valueOf(user_address)).apply();
                             prefs.edit().putString("user_address_type",String.valueOf(user_address_type)).apply();
 
 

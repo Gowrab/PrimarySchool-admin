@@ -38,6 +38,7 @@ public class HomeActivity extends AppCompatActivity {
        {
            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                    new District_Fragment()).commit();
+
        }
        if(admin.equals("District"))
        {

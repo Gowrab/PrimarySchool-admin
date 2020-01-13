@@ -7,4 +7,18 @@
     <string name="log">লগ</string>
     <string name="notification">নোটিশ</string>
     <string name="profile">প্রোফাইল</string>
+    <string name="total_student_name">মোট ছাত্র-ছাত্রী সংখ্যা</string>
+    <string name="totalmale">
+        মোট ছাত্র সংখ্যা
+    </string>
+    <string name="totalfemale">মোট ছাত্রী সংখ্যা</string>
+    <string name="total_male_present">উপস্থিত ছাত্র সংখ্যা</string>
+
+    <string name="total_female_present">উপস্থিত ছাত্রী সংখ্যা</string>
+    <string name="total_male_absent">অনুপস্থিত ছাত্র সংখ্যা
+
+    </string>
+    <string name="total_female_absent">অনুপস্থিত ছাত্রী সংখ্যা</string>
+    <string name="viewdetails">বিস্তারিত</string>
+    <string name="tarikh">তারিখ</string>
 </resources>
