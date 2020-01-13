@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PrimarySchool</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">হোম</string>
+    <string name="log">লগ</string>
+    <string name="notification">নোটিশ</string>
+    <string name="profile">প্রোফাইল</string>
+</resources>
